@@ -68,3 +68,18 @@ form button{
     display: none;
     
 }
+
+#search-result{
+    width: 80px;
+    margin: 100px auto 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+}
+
+#search-result img{
+    width: 100px;
+    height: 230px;
+    object-fit: fill;
+    border-radius: 5px;
+}
